@@ -1,0 +1,27 @@
+/* .container {
+  background-color: black;
+} */
+.main-area {
+  background-image: url(../images/poster.png);
+  height: 100vh;
+}
+h1 {
+  color: white;
+  padding-top: 15rem;
+}
+p {
+  margin-top: 1rem;
+  color: white;
+}
+.card {
+  background-color: rgb(23, 23, 21);
+}
+.start-btn {
+  display: flex !important;
+}
+
+.btn {
+  display: flexbox !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
