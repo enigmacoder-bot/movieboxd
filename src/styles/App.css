@@ -3,11 +3,13 @@
 } */
 .main-area {
   background-image: url(../images/poster.png);
+  background-repeat: no-repeat;
   height: 100vh;
 }
 h1 {
   color: white;
-  padding-top: 15rem;
+  font-weight: bolder;
+  padding-top: 8rem;
 }
 p {
   margin-top: 1rem;

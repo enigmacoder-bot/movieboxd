@@ -40,14 +40,15 @@ function App() {
               <Container fluid>
                 <Navbar.Brand
                   href="#"
-                  style={{ color: "white", fontWeight: "bold" }}
+                  style={{ color: "blueviolet", fontWeight: "bold" }}
+                  className="brand-name"
                 >
                   <img src={logo} alt="logo" />
                   Movieboxd
                 </Navbar.Brand>
                 <Navbar.Toggle
                   aria-controls={`offcanvasNavbar-expand-${expand}`}
-                  style={{ color: "white" }}
+                  style={{ color: "orange" }}
                 >
                   ☰
                 </Navbar.Toggle>
@@ -112,8 +113,12 @@ function App() {
         {/* Button */}
         {/* Text Section */}
         <div style={{ textAlign: "center" }} className="main-area">
+          <img src={logo} alt="Main Logo" />
           <h1>Movieboxd</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+          <p>
+            Track films you’ve watched. Save those you want to see. Tell your
+            friends what’s good.
+          </p>
         </div>
         <div
           className="start"
@@ -125,6 +130,7 @@ function App() {
         >
           <Button
             className="start-btn"
+            style={{ margin: "1rem" }}
             variant="success"
             onClick={() => handleShow}
           >
